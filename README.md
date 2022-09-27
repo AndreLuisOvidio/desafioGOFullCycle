@@ -6,7 +6,9 @@ Criar uma imagem com um binario go que ao executar escreva o texto "Code.educati
 ## **Dockerfile**
 Para fazer isso precisei utilizar para buildar o binario go, o tinygo, utilizando somente o go normal o proprio binario go ficou com mais de 2 megas
 
-Para a imagem final foi utilizado o alpine 3.5 e apaguei toda a pasta lib para tentar deixar a imagem menor que 2 megas
+~~Para a imagem final foi utilizado o alpine 3.5 e apaguei toda a pasta lib para tentar deixar a imagem menor que 2 megas~~
+
+Para a imagem final alterei para a imagem **scratch** ela é varias vezes menor oque fez a imagem ficar varias vezes menor
 
 ## **Disponibilizei a imagem no docker hub:**
 
