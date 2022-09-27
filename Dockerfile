@@ -12,4 +12,4 @@ WORKDIR /app/src
 
 COPY --from=builder /app/src/printCodeRocks .
 
-CMD [ "./printCodeRocks" ]desafio-go-fullcycle
+CMD [ "./printCodeRocks" ]
